@@ -1,0 +1,126 @@
+/* Global selector */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Element selector */
+body {
+    padding: 0;
+    margin: 0;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    background: whitesmoke;
+}
+h1 {
+    font-weight: bolder;
+    font-size: 42px;
+    color: white;
+}
+h2 {
+    font-weight: bold;
+    font-size: 32px;
+    color: black;
+}
+ul {
+    text-align: center;
+    padding: 10px;
+}
+li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    padding: 0;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: black;
+    color: white;
+}
+
+/* Class selector*/
+.hero {
+    min-height: 500px;
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.site-title {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 300px 0;
+}
+.content {
+    padding: 120px 40px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.content-left {
+    display: inline-block;
+    max-width: 880px;
+    vertical-align: middle;
+    padding-right: 80px;
+}
+.content-right {
+    display: inline-block;
+    max-width: 300px;
+    vertical-align: middle;
+}
+.contact {
+    background-color: lightgrey;
+}
+.contact-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 40px 80px;
+}
+.form-inputs-group {
+    color: black;
+    width: 400px;
+    margin: 10px auto;
+}
+.center {
+    text-align: center;
+}
+.footer-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 40px;
+}
+.footer-text {
+    color: whitesmoke;
+    text-align: center;
+}
+
+/* ID selector */
+#send-btn {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: skyblue;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
